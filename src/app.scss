@@ -1,0 +1,27 @@
+@import "utilities/variables";
+
+.app {
+  height: 100vh;
+  color: $baby-powder;
+  background-color: $indigo-dye;
+
+  .sections {
+    font-family: "Space Mono", sans-serif;
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: relative;
+    top: 70px;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    overflow-y: scroll;
+    > * {
+      width: 100%;
+      height: calc(100vh - 70px);
+      scroll-snap-align: start;
+    }
+  }
+}

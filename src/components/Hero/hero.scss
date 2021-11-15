@@ -1,0 +1,61 @@
+@import "utilities/variables";
+
+.hero {
+  display: flex;
+
+  .imgbox {
+    flex: 0.1;
+    img {
+      height: calc(100vh - 70px);
+    }
+  }
+  .intro {
+    flex: 0.9;
+    align-self: center;
+    margin: 200px;
+    text-align: center;
+
+    .title {
+      padding-bottom: 50px;
+      h1 {
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 30px;
+        color: $lime-green;
+        span {
+          color: $light-sea-green;
+        }
+      }
+      h4 {
+        font-size: 30px;
+      }
+      .name {
+        color: $red-purple;
+      }
+    }
+    .desc {
+      font-size: 16px;
+      margin: 0 200px 0 200px;
+      .school {
+        color: $red-purple;
+      }
+      .major {
+        color: $lime-green;
+      }
+    }
+    .btn {
+      margin-top: 20px;
+    }
+    .connect {
+      background-color: $bright-green;
+      text-decoration: none;
+      color: $baby-powder;
+      padding: 5px 15px 5px 15px;
+      border-radius: 25px;
+    }
+    .connect:hover {
+      background-color: $emerald;
+    }
+  }
+}
