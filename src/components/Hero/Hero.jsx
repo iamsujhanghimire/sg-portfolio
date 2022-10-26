@@ -21,7 +21,7 @@ export default function Hero() {
           <p>
             Currently a junior at{" "}
             <span className="school">Clark University, MA</span> pursuing
-            <span className="major"> Computer Science and Economics</span>,{" "}
+            <span className="major"> Computer Science</span>,{" "}
             <br />I bring to the industry my passion and skills to create modern
             looking websites.
           </p>
