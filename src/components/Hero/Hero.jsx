@@ -15,15 +15,15 @@ export default function Hero() {
           <h1>
             I am <span className="name">Sujhan Ghimire,</span>
           </h1>
-          <h4>an aspiring Frontend Web Designer and Developer.</h4>
+          <h4>an aspiring Product Manager and Front-End Developer.</h4>
         </div>
         <div className="desc">
           <p>
-            Currently a junior at{" "}
+            Currently a senior at{" "}
             <span className="school">Clark University, MA</span> pursuing
-            <span className="major"> Computer Science</span>,{" "}
-            <br />I bring to the industry my passion and skills to create modern
-            looking websites.
+            <span className="major"> Computer Science</span>, <br />I bring to
+            the industry my passion and skills to solve real life problems by
+            providing smart technical solutions.
           </p>
         </div>
         <div className="btn">
