@@ -15,7 +15,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="right">
-          <a href="#experience" className="navElements exp">
+          {/* <a href="#experience" className="navElements exp">
             &lt;<span className="navTitle">experience</span>
             <span className="slash">/</span>&gt;
           </a>
@@ -30,9 +30,15 @@ export default function Navbar() {
           <a href="#contact" className="navElements cont">
             &lt;<span className="navTitle">contact</span>
             <span className="slash">/</span>&gt;
+          </a> */}
+          <a href="#construction" className="navElements const">
+            &lt;<span className="navTitle">page under construction</span>
+            <span className="slash">/</span>&gt;
           </a>
-          <a href = "documents/SujhanGhimire22.pdf"
-            download = "SujhanGhimire22.pdf">
+          <a
+            href="documents/SujhanGhimire22.pdf"
+            download="SujhanGhimire22.pdf"
+          >
             <button className="navElements resume">Resume</button>
           </a>
         </div>
