@@ -47,7 +47,7 @@ export default function Leftbar() {
             <FaLinkedinIn className="icon" />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="http://www.codepen.io/iamsujhanghimire"
             target="_blank"
@@ -55,7 +55,7 @@ export default function Leftbar() {
           >
             <FaCodepen className="icon" />
           </a>
-        </li>
+        </li> */}
         <div className="vertline"></div>
       </ul>
     </div>

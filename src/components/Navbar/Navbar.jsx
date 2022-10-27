@@ -1,23 +1,8 @@
 import "./navbar.scss";
 import { useState, useEffect } from "react";
+import { Document,Page } from "react-pdf";
 
 export default function Navbar() {
-  // const [show, setShow] = useState(true);
-  // const controlNavbar = () => {
-  //   if (window.scrollY > 100) {
-  //     setShow(false);
-  //   } else {
-  //     setShow(true);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", controlNavbar);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", controlNavbar);
-  //   };
-  // }, []);
 
   return (
     <div className="nav navbar">
@@ -46,11 +31,9 @@ export default function Navbar() {
             &lt;<span className="navTitle">contact</span>
             <span className="slash">/</span>&gt;
           </a>
-          <a
-            href="http://www.linkedin.com/in/iamsujhanghimire"
-            className="navElements resume"
-          >
-            view my resume
+          <a href = "documents/SujhanGhimire22.pdf"
+            download = "SujhanGhimire22.pdf">
+            <button className="navElements resume">Resume</button>
           </a>
         </div>
       </div>

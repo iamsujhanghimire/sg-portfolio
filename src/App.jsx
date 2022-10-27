@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Experiece from "./components/Experience/Experience";
+import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
 import Blogs from "./components/Blogs/Blogs";
 import Contact from "./components/Contact/Contact";
@@ -15,9 +16,9 @@ function App() {
       <div className="sections">
         <Hero />
         <Experiece />
-        <Projects />
-        <Blogs />
-        <Contact />
+        {/* <Projects /> */}
+        {/* <Blogs /> */}
+        {/* <Contact /> */}
       </div>
     </div>
   );
